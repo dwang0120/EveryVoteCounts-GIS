@@ -1,0 +1,16 @@
+name: evc
+channels:
+- conda-forge
+dependencies:
+- python=3.12.5
+- matplotlib=3.9.2
+- plotly=5.23.0
+- pandas=2.2.2
+- numpy=1.26.4
+- jupyter
+- seaborn=0.13.2
+- geopandas
+- shapely
+- scikit-learn=1.5.1
+
+prefix: /opt/conda
